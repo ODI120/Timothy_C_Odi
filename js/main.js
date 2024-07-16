@@ -22,7 +22,7 @@ const observer = new IntersectionObserver((entries) =>{
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
-// =================================
+// ============nav collaps=====================
 
 const toggleBtn = document.querySelector('.toggle_btn')
 const toggleIcon = document.querySelector('.toggle_btn i')
